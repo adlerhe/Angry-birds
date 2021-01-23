@@ -79,8 +79,8 @@ package Angry_Birds;
 			}
 			
 		}
-		private int distance(int x1, int y1, int x2, int y2) {
-			double dist = Math.sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));
+		private int distance(double birdX, double birdY, int enemyX, int enemyY) {
+			double dist = Math.sqrt((birdX-enemyX)*(birdX-enemyX)+(birdY-enemyY)*(birdY-enemyY));
 			return (int) (dist);
 		}
 		
