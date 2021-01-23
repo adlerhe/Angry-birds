@@ -117,7 +117,7 @@ package Angry_Birds;
 			g.setColor(Color.black);
 			g.fillOval(birdX, birdY, 20, 20);
 			
-
+			//d
 		}
 		
 		
